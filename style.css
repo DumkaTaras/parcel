@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#firstNumber,
+#secondNumber {
+  width: 200px;
+    padding: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+#operator {
+  width: 100px;
+    padding: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+#button {
+  padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
